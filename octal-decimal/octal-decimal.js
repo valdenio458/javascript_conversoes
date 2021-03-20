@@ -1,11 +1,11 @@
-// Converte um número binário para decimal
-function converter(bin){
+// Converte um número octal para decimal
+function converter(oct){
     var decimal = 0;
-    var bin = document.getElementById('ini').value
+    var oct = document.getElementById('ini').value
     var res = document.getElementById('res')
 
-    for(var index = bin.length -1; index >= 0; index --){
-        decimal += parseInt(bin[index])*Math.pow(8, bin.length-1-index);
+    for(var index = oct.length -1; index >= 0; index --){
+        decimal += parseInt(oct[index])*Math.pow(8, oct.length-1-index);
     }
     res.innerHTML = `O valor correspondente em decimal é ${decimal}.`
 }
