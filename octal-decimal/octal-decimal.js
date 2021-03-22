@@ -11,16 +11,4 @@ function converter(oct){
 }
 
 
-// console.log(bin2Dec('0001'))
-/*
-// Arrow function
-var converte = (bin) => {
-    var decimal = 0;
 
-    for(var index = bin.length -1; index >= 0; index --){
-        decimal += parseInt(bin[index])*Math.pow(2, bin.length-1-index);
-    }
-    return decimal
-}
-console.log(converte('1111'))
-*/
