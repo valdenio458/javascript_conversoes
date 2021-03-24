@@ -1,10 +1,7 @@
 function calcular(){
 var primeiroValor = document.getElementById("n1").value;
-console.log(primeiroValor)
 var segundoValor = document.getElementById("n2").value;
-console.log(segundoValor)
 var operacao = document.getElementById("op").value;
-console.log(typeof(operacao))
 var res = document.getElementById('res');
 
 // Opção usando if, else if e else:
